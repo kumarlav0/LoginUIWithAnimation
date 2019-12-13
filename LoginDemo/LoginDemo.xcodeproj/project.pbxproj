@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -81,18 +81,13 @@
 		1840EBF3235EE09600CF9221 /* LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A65AF58123A3C708008C1341 /* Controllers */,
+				A65AF58023A3C6DC008C1341 /* Helper File */,
 				1840EBF4235EE09600CF9221 /* AppDelegate.swift */,
 				1840EBF8235EE09600CF9221 /* Main.storyboard */,
 				1840EBFB235EE09800CF9221 /* Assets.xcassets */,
 				1840EBFD235EE09800CF9221 /* LaunchScreen.storyboard */,
 				1840EC00235EE09800CF9221 /* Info.plist */,
-				1840EC08235EE72D00CF9221 /* DiagonalLine.swift */,
-				1840EC0A235EE75F00CF9221 /* Triangle.swift */,
-				1840EC06235EE21C00CF9221 /* Extensions.swift */,
-				1840EC0C235F048300CF9221 /* RegistrationVC.swift */,
-				1840EC0E235F0A5200CF9221 /* ForgotPasswordVC.swift */,
-				1840EC10235F13A800CF9221 /* ChangePasswordVC.swift */,
-				A65AF57E23A3A377008C1341 /* LoginVC.swift */,
 			);
 			path = LoginDemo;
 			sourceTree = "<group>";
@@ -103,8 +98,28 @@
 				1E8E2DE78AC1A145BDF1577C /* Pods-LoginDemo.debug.xcconfig */,
 				F5732683E0DEB7A734CD74F3 /* Pods-LoginDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A65AF58023A3C6DC008C1341 /* Helper File */ = {
+			isa = PBXGroup;
+			children = (
+				1840EC06235EE21C00CF9221 /* Extensions.swift */,
+				1840EC0A235EE75F00CF9221 /* Triangle.swift */,
+				1840EC08235EE72D00CF9221 /* DiagonalLine.swift */,
+			);
+			path = "Helper File";
+			sourceTree = "<group>";
+		};
+		A65AF58123A3C708008C1341 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1840EC0C235F048300CF9221 /* RegistrationVC.swift */,
+				1840EC0E235F0A5200CF9221 /* ForgotPasswordVC.swift */,
+				1840EC10235F13A800CF9221 /* ChangePasswordVC.swift */,
+				A65AF57E23A3A377008C1341 /* LoginVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
