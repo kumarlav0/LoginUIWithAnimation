@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04398DEF28F3477700450CA2 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04398DEE28F3477700450CA2 /* DashboardViewController.swift */; };
 		1840EBF5235EE09600CF9221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840EBF4235EE09600CF9221 /* AppDelegate.swift */; };
 		1840EBFA235EE09600CF9221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1840EBF8235EE09600CF9221 /* Main.storyboard */; };
 		1840EBFC235EE09800CF9221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1840EBFB235EE09800CF9221 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04398DEE28F3477700450CA2 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		1840EBF1235EE09600CF9221 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1840EBF4235EE09600CF9221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1840EBF9235EE09600CF9221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				1840EC0E235F0A5200CF9221 /* ForgotPasswordVC.swift */,
 				1840EC10235F13A800CF9221 /* ChangePasswordVC.swift */,
 				A65AF57E23A3A377008C1341 /* LoginVC.swift */,
+				04398DEE28F3477700450CA2 /* DashboardViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1840EC09235EE72D00CF9221 /* DiagonalLine.swift in Sources */,
+				04398DEF28F3477700450CA2 /* DashboardViewController.swift in Sources */,
 				1840EC0F235F0A5200CF9221 /* ForgotPasswordVC.swift in Sources */,
 				A65AF57F23A3A377008C1341 /* LoginVC.swift in Sources */,
 				1840EC11235F13A800CF9221 /* ChangePasswordVC.swift in Sources */,
